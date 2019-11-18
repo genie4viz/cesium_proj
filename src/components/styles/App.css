@@ -1,0 +1,350 @@
+.topbutton {
+  float: left;
+  width: 120px;
+}
+
+.highlight tr:hover {
+  background-color: #b4d8f3 !important;
+  color: black !important;
+}
+
+.active {
+  background-color: #b4d8f3;
+  color: #000;
+}
+
+.zhuzhuangtu1 {
+  position: relative;
+  width: 100%;
+  height: 285px;
+  left: 3%;
+  z-index: 10;
+}
+
+.zhuzhuangtu {
+  position: relative;
+  width: 100%;
+  height: 250px;
+  left: 0%;
+  z-index: 10;
+}
+
+#tflslb {
+  position: relative;
+  width: 95%;
+  left: 3%;
+  z-index: 10;
+  margin-bottom: 10%;
+}
+
+#tfdqlb {
+  position: relative;
+  width: 95%;
+  left: 3%;
+  z-index: 10;
+  margin-bottom: 10%;
+}
+
+.table123 {
+  position: relative;
+  width: 95%;
+  left: 3%;
+  top: 30px;
+  z-index: 10;
+  overflow-y: hidden;
+}
+
+.neizhi {
+  width: 98%;
+  height: 97%;
+  position: relative;
+  top: 1.5%;
+  bottom: 0.5%;
+  right: 1.5%;
+  left: 1%;
+  overflow: hidden;
+}
+
+#map_main {
+  width: 72%;
+  max-width: calc(100% - 450px);
+  height: 88%;
+  position: fixed;
+  bottom: 0;
+  left: 5px;
+}
+
+.lineWrap {
+  position: absolute;
+  left: 0;
+  top: 0;
+  overflow: visible;
+}
+
+.mapp {
+  width: 72%;
+  height: 85%;
+
+  float: left;
+  position: fixed;
+  bottom: 0;
+  left: 70px;
+}
+
+#table111 {
+  position: fixed;
+  width: 100%;
+  height: 168px;
+  right: 0px;
+  bottom: 60px;
+  z-index: 10;
+  overflow: auto;
+  background-color: rgba(13, 55, 73, 0.8) !important;
+  border: 0px solid #00abf8 !important;
+  max-width: 400px;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.map-container {
+  width: 100%;
+  height: 100%;
+}
+
+.menu {
+  z-index: 10;
+  position: absolute;
+  background-color: #ccc;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.menu1 {
+  z-index: 10;
+  left: 20px;
+  bottom: 36px;
+}
+
+.menu2 {
+  z-index: 10;
+  left: 240px;
+  bottom: 86px;
+}
+
+.menu3 {
+  z-index: 10;
+  left: 20px;
+  bottom: 86px;
+}
+
+.menu4 {
+  z-index: 10;
+  left: 110px;
+  bottom: 86px;
+}
+
+.menu5 {
+  z-index: 10;
+  left: 570px;
+  bottom: 86px;
+  background-color: #fff;
+}
+
+.lonlat {
+  z-index: 10;
+  position: absolute;
+  top: 0;
+  right: 50px;
+  padding: 5px 10px;
+  border-radius: 0 0 4px 4px;
+  background-color: #fff;
+}
+
+.custom-overlay {
+  width: 300px;
+}
+
+.ol-control-button-rectangle {
+  top: 0;
+  left: 300px;
+}
+
+.ooooo {
+  position: relative;
+  top: 200px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  min-width: 1250px;
+}
+
+.anniu {
+  width: 50%;
+  height: 10%;
+
+  text-align: center;
+  position: relative;
+  top: 1.5%;
+  right: 28%;
+  left: 29%;
+}
+
+.clearfix {
+  overflow: auto;
+  _height: 1%;
+}
+
+.taifeng_switch {
+  width: 49%;
+  background-color: rgb(50, 120, 178);
+  margin-top: 3%;
+  margin-left: 0px;
+  margin-bottom: 1%;
+  text-align: center;
+  line-height: 180%;
+  float: left;
+  color: white;
+  border-radius: 4px;
+}
+
+.taifeng_switch.active {
+  background-color: blue;
+  color: white;
+}
+
+.timespan_button {
+  float: left;
+  width: 60px;
+  height: 30px;
+  background: #5999d0;
+  border-radius: 4px;
+  line-height: 30px;
+  margin-left: 2px;
+  font-size: 13px;
+  color: white;
+  padding-left: 10px;
+}
+
+.title {
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.el-card {
+  border: initial;
+  border-radius: 0px;
+  background-color: initial;
+}
+
+.sub_image_button {
+  cursor: pointer;
+  width: 80px;
+  float: left;
+  margin-right: 2px;
+}
+
+.button_div {
+  width: 100%;
+  padding-left: 9%;
+  position: absolute;
+  top: -20px;
+}
+
+.sub_image_button_long {
+  cursor: pointer;
+  width: 94px;
+  float: left;
+  margin-right: 2px;
+}
+
+body {
+  background-image: url(~@/assets/img/waikuang.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-color: rgb(23, 39, 62);
+  position: fixed;
+  width: 100%;
+}
+
+.base_frame {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  min-width: 1250px;
+  min-height: 1000px;
+  font-family:
+    PingFang SC, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Helvetica, Arial, Hiragino Sans GB, Source Han Sans, Noto Sans CJK Sc, Microsoft YaHei, Microsoft Jhenghei, sans-serif;
+  position: fixed;
+  bottom: 0;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.tip_window {
+  /* display: none; */
+  position: absolute;
+  padding: 4px;
+  border: 3px solid yellow;
+  background-color: blue;
+  cursor: pointer;
+  color: yellow;
+  text-align: left;
+  font-size: 16px;
+  font-weight: 300;
+
+}
+
+.tip_window p {
+  margin: 0px 5px;
+  white-space: nowrap;
+}
+
+.tip_window.add {
+  background-color: brown;
+  color: yellow;
+}
+
+.tip_window p {
+  margin: 0px 5px;
+  white-space: nowrap;
+}
+
+.micro_tip_window {
+  /* display: none; */
+  position: absolute;
+  padding: 4px;
+  border: 3px solid yellow;
+  background-color: blue;
+  cursor: pointer;
+  color: yellow;
+  text-align: left;
+  font-size: 16px;
+  font-weight: 300;
+}
+.micro_tip_window p {
+  margin: 0px 5px;
+  white-space: nowrap;
+}
+
+.tip_tower {
+  /* display: none; */
+  position: absolute;
+  padding: 4px;
+  border: 3px solid blue;
+  background-color: purple;
+  cursor: pointer;
+  color: yellow;
+  text-align: left;
+  font-size: 16px;
+  font-weight: 300;
+}
+.tip_tower p{
+  margin: 0px 5px;
+  white-space: nowrap;
+}

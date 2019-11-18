@@ -1,0 +1,2 @@
+﻿47.93.82.226   root/Hfmlog2016
+경로는 /mnt/program 에 넣을것.

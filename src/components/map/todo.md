@@ -1,0 +1,16 @@
+- hover、 click 或其他事件的时候需要额外的样式，各 overlays 可接受两个的样式，一个渲染的时候，一个其他事件触发
+- 各 overlays 的默认样式需要调整
+- 各组件其他配置参数支持按文档以 Object 形式传递
+- 台风、流场图
+- 各 feature 的 attr 属性需要删除，仅做调试用
+- line arrow
+- 点击之后通过经纬度去高德查询地址
+- map 支持可配置 view ==> 多 view 切换
+- marker animation
+- 通过 mouse position control 得到的经纬度和直接转换 coordinate 得到的经纬度不一致
+- 4.6.0 新增了 textBackgroundFill 和 textBackgroundStroke 属性，看是否可整合进 Marker
+- Draw 的椭圆参数
+- heatmap layer
+- draw point 有bug，无法清除 => 暂时不支持 point
+- controls: 切换地图、显示边界、显示地图网格、测算面积和距离、屏幕截图、邮票图、单点、画规则或不规则图形、切换投影
+- marker 和 text 应该可以进一步整合

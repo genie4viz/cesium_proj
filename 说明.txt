@@ -1,0 +1,51 @@
+该版本是第一周的成果，改正了图片路径问题和解决了生产部署问题
+======
+如果编译运行报错，可能是vue版本不对，运行下列命令：
+npm install vue@2.5.18 --save
+
+======================
+=====修改和生产部署方案====
+1，
+static/config/index.js改为：
+// window.SITE_CONFIG['cdnUrl']  = window.SITE_CONFIG.domain + window.SITE_CONFIG.version;
+  window.SITE_CONFIG['cdnUrl']  = window.SITE_CONFIG.domain ;
+  
+2，  
+static/config/index-prod.js 改为：
+//  window.SITE_CONFIG['cdnUrl']  = window.SITE_CONFIG.domain + window.SITE_CONFIG.version;
+  window.SITE_CONFIG['cdnUrl']  = window.SITE_CONFIG.domain ;
+  
+3，App.vue的data()里加
+ttable: {
+          width: '25%',
+          height: '90%',
+          float: 'right',
+          position: 'fixed',
+          bottom: 0,
+          right: '3%',
+          backgroundImage: 'url(' + youcebiankuangpng + ')',
+          backgroundSize: '100% 100%',
+          backgroundRepeat: 'none'
+        }
+		
+import youcebiankuangpng from '../assets/static_pages/img/youcebiankuang.png';
+
+  <div   :style="ttable">
+    dddddddd
+  </div>
+  
+4，运行npm run build之后把index.html和config目录拷贝到版本目录1812091647下面去，然后
+把版本目录下的文件部署即可。
+
+
+===================================
+====台风预警发布版发布方法====
+1，打开webpack.base.conf.js里的100行到114行的注释
+2，打开webpack.base.conf.js的116行，注释掉  
+externals: {
+    "mockjs": "Mock",
+    "echarts": "echarts",
+    "ueditor": "UE"
+  }
+2，打开config/init.js的16到27行cdns的注释。
+3，config/init.js的13行注释掉。
